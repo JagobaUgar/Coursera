@@ -1,0 +1,46 @@
+* {
+	box-sizing: border-box;
+}
+
+/***Navbar***/
+a:hover, a:active, a:link, a:visited {
+	color: black;
+	text-decoration: none;
+}
+
+#header-nav {
+	background-color: rgb(0,255,255);
+	border: 0;
+	border-radius: 0;
+}
+
+#brand-name {
+	size: 32px;
+	left: 0;
+}
+
+#nav-list {
+	margin-top: 10px;
+	background-color: rgb(0,255,255);
+}
+
+#nav-list li {
+	color: black;
+	text-align: center;
+	font-size: 1.8em;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+
+#text {
+	background-color: rgb(0,0,70);
+	color: white;
+	height: 1000px;
+	padding: 10px;
+}
+
+h1 {
+	margin-bottom: 20px;
+}
